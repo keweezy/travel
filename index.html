@@ -3,16 +3,17 @@
 
 <head>
     <title>Furniture Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="./assets/css/fontawesome/css/fontawesome.css" rel="stylesheet">
 </head>
 
 <body>
-    <div style="border: solid 1px green;">
+    <div class="full-screen-main">
         <nav>
             <div class="icon">
                 <span><img src="./assets/css/images/home.png" alt="alternative" class="icon-img icon-img-po"></span>
-                &nbsp; <p>pomah</p>
+                &nbsp; <p style="color: seagreen;">pomah</p>
             </div>
             <div>
                 <ul class="nav-list">
@@ -31,16 +32,26 @@
             <div style="height: 550px;" class="firstp">
                 <div class="travel">
                     <h1>Make your travel <br>memorable</h1>
-                    <p>Contrary to popular belief. Lorem ipsum is not simply random text. It has roots in a piece of
+                    <p class="p.new">Contrary to popular belief. Lorem ipsum is not simply random text. It has roots in
+                        a piece of
                         classical
                         Latin literature</p>
                     <div class="holder">
-                        <!-- <div style="white-space:nowrap">
-                            <label for="id1">label1:</label>
-                            <input type="text" id="id1"/>
-                        </div> -->
-                        <input type="text" placeholder="2 nights" class="hold2">
-                        <input type="text" placeholder="3 Guests" class="hold3">
+                        <div class="form-group">
+                            <label for="id1" class="label1 label-img">locations</label>
+                            <input type="text" id="id1" style="border: 0; width: 366px;" placeholder="Lekki, Lagos" />
+                            <img src="./assets/css/images/home.png" alt="alternative" class="icon-img icon-img5">
+                        </div>
+                        <div class="form-group loc1">
+                            <label for="id1" class="label1 label-img">locations</label>
+                            <input type="text" id="id1" style="border: 0; width: 145px;" placeholder="Lekki, Lagos" />
+                            <img src="./assets/css/images/home.png" alt="alternative" class="icon-img icon-img5">
+                        </div>
+                        <div class="form-group loc1">
+                            <label for="id1" class="label1 label-img">locations</label>
+                            <input type="text" id="id1" style="border: 0; width: 145px;" placeholder="Lekki, Lagos" />
+                            <img src="./assets/css/images/home.png" alt="alternative" class="icon-img icon-img5">
+                        </div>
                     </div>
                     <div>
                         <button>Find Pomah</button>
@@ -52,7 +63,7 @@
             </div>
         </booking>
         <fontz>
-            <div style="height: 330px;">
+            <div style="height: 196px; display: flex;">
                 <div class="fonte">
                     <ul>
                         <li id="l1">SHERATON</li>
@@ -62,12 +73,12 @@
                     </ul>
                 </div>
                 <div class="pic1">
-                    <span><img src="./assets/css/images/IMG_20191231_215126.jpg" alt="alternative"></span>
+                    <span><img src="./assets/css/images/timothy-buck-psrloDbaZc8-unsplash.jpg" alt="alternative"></span>
                 </div>
             </div>
         </fontz>
         <top-des>
-            <div class="top-des1" style="height: 650px;">
+            <div class="top-des1" style="height: 550px;">
                 <div style="height: 180px; width: 400px; margin-top: 67px;">
                     <h2>Top Destination</h2>
                     <p>it was polarised in the 1960's with the release of Latraset sheets containing lorem Ipsum passgae
@@ -260,7 +271,7 @@
         </handp>
         <benefit>
             <div class="flex-container">
-                <img src="./assets/css/images/vertical.jpg" alt="alternative" class="flex-item flex-item2">
+                <img src="./assets/css/images/hun.jpg" alt="alternative" class="flex-item flex-item2">
                 <article>
                     <div>
                         <h4 style="font-size: 33px;">Benefit Using Pomah</h4>
@@ -304,15 +315,14 @@
                     </div>
                 </article>
                 <div>
-                    <img src="./assets/css/images/IMG_20191231_215126.jpg" alt="alternative"
-                        class="flex-item flex-item3">
+                    <img src="./assets/css/images/horizontal.jpg" alt="alternative" class="flex-item flex-item3">
                 </div>
             </div>
         </benefit>
         <pic-row>
-            <div class="flex-container2" style="border: solid 1px blue;">
-                <img src="./assets/css/images/IMG_20191231_215126.jpg" alt="alternative" class="flex-item4">
-                <img src="./assets/css/images/IMG_20191231_215126.jpg" alt="alternative" class="flex-item4"
+            <div class="flex-container2">
+                <img src="./assets/css/images/sample.jpg" alt="alternative" class="flex-item4">
+                <img src="./assets/css/images/timothy-buck-psrloDbaZc8-unsplash.jpg" alt="alternative" class="flex-item4"
                     style="height: 440px;">
                 <img src="./assets/css/images/IMG_20191231_215126.jpg" alt="alternative" class="flex-item4"
                     style="height: 270px;">
@@ -320,19 +330,40 @@
         </pic-row>
         <po-down>
             <div class="po-disp">
-                <div style="width: 500px;">
+                <div class="po-disp1">
                     <h3>DOWNLOAD Pomah App</h3>
-                    <p>install pomah app on your phone to get the new updates and services. We Always aim to give you
+                    <p class="p-edit">Install pomah app on your phone to get the new updates and services. We Always aim to give you
                         the
                         best service</p>
-                    <!-- <button><span><img src="./assets/css/images/google-play.png" alt="alternative" class="icon-img icon-img3"></span> download app <br> <span>from Google Play</span></button> -->
-                    <!-- <a class="btn btn-google" href="#" title="App Store">Google Play</a>
-                    <a class="btn btn-google btn-google2" href="#" title="App Store">Google Play</a> -->
-                    <a href=""> <span><img src="./assets/css/images/google-play.png" alt="alternative" class="icon-img"></span> Google Play</a>
+                    <div style="display: flex;">
+                        <button><span><img src="./assets/css/images/google-play.png" alt="alternative"
+                                    class="icon-img6"></span>
+                            <p class="pn1">Download from</p><span>
+                                <p class="pn2"> Google Play</p>
+                            </span>
+                        </button>
+                        <button><span><img src="./assets/css/images/FAVPNG_logo-apple-icon-information_8xDFYXUj.png" alt="alternative"
+                                    class="icon-img6 apple-logo"></span>
+                            <p class="pn1" style="margin-left: 20px;">Download on the</p><span>
+                                <p class="pn2" style="left: -9px;"> App Store</p>
+                            </span>
+                        </button>
+                    </div>
                 </div>
-                <div><img src="./assets/css/images/IMG_20191231_215126.jpg" alt="alternative" class="flex-item"></div>
+                <div><img src="./assets/css/images/sample.jpg" alt="alternative" class="flex-itemN"></div>
             </div>
         </po-down>
+        <hr>
+        <footer>
+            <div class="foot-container">
+                <p>2019 WizTech. All Rights Reserved</p>
+                <div class="p-end">
+                    <p>Privacy Policy</p>
+                    <p>Terms & Conditions</p>
+                    <p>+2348034782636</p>
+                </div>
+                </div>
+        </footer>
     </div>
 </body>
 
