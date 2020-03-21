@@ -179,7 +179,7 @@ booking h1 {
 .hold3 {
   margin-left: 15px;
 }
-.travelpic {
+/* #travelpic {
   position: relative;
   background-image: url(./assets/css/images/sample.jpg);
   height: 426px;
@@ -189,6 +189,62 @@ booking h1 {
   right: 0;
   left: 638px;
 }
+#travelpic:hover {
+  position: relative;
+  background-image: url(./assets/css/images/timothy-buck-psrloDbaZc8-unsplash.jpg);
+  height: 426px;
+  width: 640px;
+  border-bottom-left-radius: 30px;
+  margin-top: -584px;
+  right: 0;
+  left: 638px;
+  } */
+
+  .flip-box {
+    perspective: 1000px;
+    background-color: #f6f8fc;
+    height: 426px;
+    width: 640px;
+    border: 0;
+    border-bottom-left-radius: 30px;
+  margin-top: -584px;
+  right: 0;
+  left: 638px;
+  position: relative;
+  }
+  .flip-box-inner {
+    position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  }
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
 .firstp {
   height: 550px;
   background-color: #f6f8fc;
@@ -273,7 +329,7 @@ top-des button {
   height: 50px;
   width: 120px;
   margin-top: 45px;
-  background-color: purple;
+  background-color: #fa7533;
   border-radius: 13px;
 }
 top-des p {
@@ -423,7 +479,7 @@ handp ul {
 .icon-img {
   height: 12px;
   width: 14px;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 .icon-array {
   position: relative;
@@ -668,3 +724,9 @@ footer p {
     transform: translateY(-50%);
   }
 } */
+@media screen and (max-width: 600px) {
+  .top-nav {
+    float: none;
+    width: 100%;
+  }
+}
