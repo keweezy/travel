@@ -152,7 +152,7 @@ div.travel {
   margin-left: -24px;
 }
 
-booking h1 {
+.booking h1 {
   font-size: 55px;
   font-family: sans-serif;
 }
@@ -268,7 +268,7 @@ booking h1 {
   margin-top: 46px;
 }
 
-fontz ul {
+.fontz ul {
   list-style: none;
   display: flex;
   /* padding: 17px 20px;
@@ -277,13 +277,13 @@ fontz ul {
   /* margin-left: 120px; */
 }
 
-fontz #l1 {
+.fontz #l1 {
   font-weight: 500;
   color: #94a2bd;
   font-size: 22px;
   font-family: sans-serif;
 }
-fontz #l2 {
+.fontz #l2 {
   font-weight: 500;
   color: #94a2bd;
   font-size: 44px;
@@ -291,7 +291,7 @@ fontz #l2 {
   margin-top: -18px;
   margin-left: 4px;
 }
-fontz #l3 {
+.fontz #l3 {
   font-weight: 500;
   color: #94a2bd;
   font-size: 44px;
@@ -300,14 +300,14 @@ fontz #l3 {
   margin-left: 4px;
 }
 
-fontz li p {
+.fontz li p {
   font-size: 10px;
   position: initial;
   margin-left: 100px;
   font-family: sans-serif;
   margin-top: -5px;
 }
-fontz img {
+.fontz img {
   height: 280px;
   width: 240px;
   position: absolute;
@@ -321,18 +321,18 @@ fontz img {
   margin-left: 120px;
 }
 
-top-des h2 {
+.top-des h2 {
   font-size: 35px;
   font-family: sans-serif;
 }
-top-des button {
+.top-des button {
   height: 50px;
   width: 120px;
   margin-top: 45px;
   background-color: #fa7533;
   border-radius: 13px;
 }
-top-des p {
+.top-des p {
   color: rgba(0, 0, 0, 0.7);
   font-size: 15px;
   font-weight: 500;
@@ -355,7 +355,7 @@ i {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
-top-des img {
+.top-des img {
   height: 290px;
   width: 240px;
   /* position: absolute; */
@@ -364,7 +364,7 @@ top-des img {
   border-radius: 10px;
   object-fit: cover;
 }
-top-des p.small {
+.top-des p.small {
   margin-top: -15px;
   font-size: 11px;
 }
@@ -374,11 +374,11 @@ top-des p.small {
   object-fit: cover;
 }
 
-.handp {
+.handp-N {
   margin-left: 120px;
   margin-top: 100px;
 }
-handp img {
+.handp img {
   height: 110px;
   width: 218px;
   border-radius: 10px;
@@ -406,7 +406,7 @@ handp img {
   border-bottom-right-radius: 30px;
   width: 1075px;
 }
-handp button {
+.handp button {
   position: absolute;
   height: 40px;
   width: 185px;
@@ -423,12 +423,12 @@ handp button {
   margin-top: 107px;
   margin-left: 8px;
 }
-handp p {
+.handp p {
   margin-top: -15px;
   font-size: 12px;
   margin-left: 5px;
 }
-handp h2 {
+.handp h2 {
   font-size: 40px;
   font-family: sans-serif;
   margin-left: 5px;
@@ -445,7 +445,7 @@ h4 {
   color: #060606;
   position: relative;
   font-weight: 800;
-  font-size: 9px;
+  font-size: 9px !important;
   right: 90px;
   text-align: center;
   /* height: 11px; */
@@ -469,7 +469,7 @@ h4 {
   bottom: 11px;
   display: flex;
 }
-handp ul {
+.handp ul {
   list-style: none;
   position: relative;
   display: flex;
@@ -477,8 +477,8 @@ handp ul {
   right: 36px;
 }
 .icon-img {
-  height: 12px;
-  width: 14px;
+  height: 12px !important;
+  width: 14px !important;
   /* object-fit: cover; */
 }
 .icon-array {
@@ -606,7 +606,7 @@ h5 {
   object-fit: cover;
 }
 
-po-down h3 {
+.po-down h3 {
   font-size: 37px;
     color: rgba(0, 0, 0, 0.8);
 }
@@ -615,7 +615,7 @@ p {
   font-family: sans-serif;
 }
 
-po-down button {
+.po-down button {
   display: flex;
   width: 160px;
   height: 55px;
@@ -684,9 +684,10 @@ hr {
     margin-right: 9em;
 }
 
-footer p {
+.footer p {
   font-size: 12px;
     color: rgba(0, 0, 0, 0.6);
+    font-family: sans-serif;
 }
 
 .p-end {
